@@ -1,9 +1,8 @@
-<div id="readme" class="Box-body readme blob js-code-block-container">
- <article class="markdown-body entry-content p-3 p-md-6" itemprop="This needs to locked down and 'never' changed"><p><a href="https://www.microchip.com" rel="nofollow"><img src="images/Microchip.png" alt="MCHP" width="300";"></a></p>
+[![MCHP](images/microchip.png)](https://www.microchip.com)
 
-# AVR128DA48 ADC Differential Code Example
+# Differential Conversion Showcase
 
-The AVR128DA48 features one 12-bit differential ADC. In this demo, one POT click board and one POT 2 click board will be attached to the mikroBus socket #1 and socket #2 of a Curiosity Nano Base board and the analog values provided by the two potentiometers will be read using AIN3 and AIN4 channels.
+The AVR128DA48 features one 12-bit differential ADC. In this demo, one POT click board™ and one POT 2 Click board™ will be attached to the mikroBus socket #1 and socket #2 of a Curiosity Nano Base board and the analog values provided by the two potentiometers will be read using AIN3 and AIN4 channels.
 
 ## Related Documentation
 More details and code examples on the AVR128DA48 can be found at the following links:
@@ -13,7 +12,7 @@ More details and code examples on the AVR128DA48 can be found at the following l
 
 
 ## Software Used
-- Atmel Studio 7.0.2397 or newer [(microchip.com/mplab/avr-support/atmel-studio-7)](https://www.microchip.com/mplab/avr-support/atmel-studio-7)
+- Microchip Studio 7.0.2397 or newer [(Microchip Studio for AVR® and SAM Devices)](https://www.microchip.com/en-us/development-tools-tools-and-software/microchip-studio-for-avr-and-sam-devices)
 - AVR-Dx 1.0.18 or newer Device Pack
 
 
@@ -40,7 +39,7 @@ The following configurations must be made for this project:
 
 ## Operation
 To visualize the read ADC value, follow the instructions below.
-1. Open the *AVR_DA_ADC_Differential_example.atsln* project solution in Atmel Studio
+1. Open the *AVR_DA_ADC_Differential_example.atsln* project solution in Microchip Studio
 
 2. In `main` function from main.c file, add a breakpoint on line 101
     <br><img src="images/AVR-DA_ADC_dif_breakpoint.jpg" width="500">

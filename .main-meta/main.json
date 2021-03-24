@@ -5,7 +5,7 @@
         "metaDataVersion": "1.1.0",
         "name": "com.microchip.mcu8.studio.project.avr128da48-adc-differential-example",
         "version": "1.0.2",
-        "displayName": "ADC Differential Conversion Example",
+        "displayName": "Differential Conversion Showcase",
         "projectName": "avr128da48-adc-differential-example",
         "shortDescription": "This example shows how to configure the ADC to run a differential conversion on two input values provided by potentiometers.",
         "ide": {
@@ -39,14 +39,15 @@
         "author": "Microchip",
         "subcategories": [
             [
-               "Peripherals", "ADC"
+               "Peripherals",
+			   "ADC"
             ]
         ],
         "peripherals": [
             "ADC"
         ],
         "keywords": [
-          "differential conversion"
+          "Differential Conversion"
         ],
 		"additionalData": {
 			"longDescription": {
